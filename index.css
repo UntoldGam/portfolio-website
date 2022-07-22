@@ -1,5 +1,9 @@
-#header {
-   text-decoration: underline;
-   text-align: center;
-   border: 5px firebrick double;
+body { 
+    color: white;
+    background-color: black;
+    font-family: "Verdana", Sans-serif;
+}
+
+label {
+    text-decoration: bold;
 }
