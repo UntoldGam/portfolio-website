@@ -40,27 +40,27 @@ function validateEmail(input, requiredMsg, invalidMsg) {
 }
 
 const form = document.getElementById("login");
-const EMAIL_REQUIRED = "Please enter your email";
-const EMAIL_INVALID = "Please enter a correct email address format";
 
 form.addEventListener("submit", function (event) {
     // stop form submission
     event.preventDefault();
-
-    // validate the form
-    let emailValid = validateEmail(form.elements["email"], EMAIL_REQUIRED, EMAIL_INVALID);
-    // if valid, submit the form.
     console.log(form.elements["email"].value);
     console.log(form.elements["password"].value);
 
-    if (emailValid) {
+    if (form.elements["password"].value.length > 8 && validateEmail(form.elements["email"], "AN EMAIL IS REQUIRED", "INVALID EMAIL")) {
         const h1 = document.getElementById("h1");
-        h1.innerText = "You have successfully logged in.";
         form.submit();
+        h1.innerText = "You have successfully logged in.";
+        h1.style.color = "green";
+        h1.style.textAlign = "center";
         // TODO : Add in the redirect to the Home Page (pages/home.html) and display there account somewhere
-    
     } else {
-        alert("Your email is incorrect.");
+        const h1 = document.getElementById("h1");
+        h1.innerText = "You have not been logged in. \nCheck that your password AND username are correct.";
+        h1.style.color = "red"
+        h1.style.textAlign = "center";
+        // TODO : CLEAR the form
     }
+    
 });
 
