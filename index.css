@@ -32,9 +32,11 @@ li a:hover {
 }
 
 .navbar {
+  list-style-type: none;
   overflow: hidden;
+  margin: 0;
+  padding: 0;
   background-color: #333;
-  margin-bottom: 25px;
 }
 
 /* Style the topnav links */
@@ -48,10 +50,6 @@ li a:hover {
   padding: 14px 16px;
   background-color: rgb(43, 38, 44);
   text-decoration: none;
-
-  border: 2px solid rgba(27, 111, 196, 0.867);
-  border-radius: 3px;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
   transition: all 200ms ease-out;
 }
 
