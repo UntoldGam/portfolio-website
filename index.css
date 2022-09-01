@@ -28,5 +28,6 @@ li a {
 }
 
 li a:hover {
-  box-shadow: 0 4px 8px 0 rgb(42, 118, 200);
+  box-shadow: 0 4px 8px 0 rgba(42, 118, 200), 0 6px 20px 0 rgba(42, 118, 200);
+  
 }
