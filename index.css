@@ -1,7 +1,12 @@
 body {
   color: white;
-  background-color: black;
   font-family: "Verdana", Sans-serif;
+}
+
+#container {
+  background-color: rgb(41, 38, 38);
+  border-color: rgb(28, 75, 204);
+  border-radius: 2px;
 }
 
 #navbar {
