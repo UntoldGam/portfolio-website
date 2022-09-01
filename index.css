@@ -5,32 +5,6 @@ body {
 
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(84, 76, 76);
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  background-color: rgb(84, 76, 76);
-
-}
-
-li a:hover {
-  box-shadow: 0 4px 8px 0 rgba(42, 118, 200), 0 6px 20px 0 rgba(42, 118, 200);
-  
-}
-
 .navbar {
   list-style-type: none;
   overflow: hidden;
@@ -43,6 +17,7 @@ li a:hover {
 .navbar a {
   font-family:'Times New Roman', serif;
   width: 90px;
+  padding: 5px;
   float: left;
   display: block;
   color: #f2f2f2;
@@ -50,11 +25,9 @@ li a:hover {
   padding: 14px 16px;
   background-color: rgb(43, 38, 44);
   text-decoration: none;
-  transition: all 200ms ease-out;
 }
 
 /* Change color on hover */
 .navbar a:hover {
   box-shadow: 0 0 6px rgba(35, 173, 278, 1);
-  background-color: rgb(16, 21, 16);
 }
