@@ -28,6 +28,5 @@ li a {
 }
 
 li a:hover {
-  background-color: rgb(36, 96, 235); 
   box-shadow: 0 4px 8px 0 rgb(42, 55, 200);
 }
