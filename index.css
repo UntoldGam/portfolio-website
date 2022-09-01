@@ -4,7 +4,10 @@ body {
   background-color: rgb(41, 38, 38);
 
 }
+#container {
+  background-color: rgb(63, 59, 59);
 
+}
 .navbar {
   list-style-type: none;
   overflow: hidden;
@@ -17,7 +20,7 @@ body {
 .navbar a {
   font-family:'Times New Roman', serif;
   width: 90px;
-  padding: 5px;
+  padding: 10px 10px 10px 10px;
   float: left;
   display: block;
   color: #f2f2f2;
