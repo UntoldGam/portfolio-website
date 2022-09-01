@@ -30,3 +30,33 @@ li a:hover {
   box-shadow: 0 4px 8px 0 rgba(42, 118, 200), 0 6px 20px 0 rgba(42, 118, 200);
   
 }
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  margin-bottom: 25px;
+}
+
+/* Style the topnav links */
+.navbar a {
+  font-family:'Times New Roman', serif;
+  width: 90px;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  background-color: rgb(43, 38, 44);
+  text-decoration: none;
+
+  border: 2px solid rgba(27, 111, 196, 0.867);
+  border-radius: 3px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+  transition: all 200ms ease-out;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  box-shadow: 0 0 6px rgba(35, 173, 278, 1);
+  background-color: rgb(16, 21, 16);
+}
