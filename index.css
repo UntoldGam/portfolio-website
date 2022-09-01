@@ -10,9 +10,10 @@ body {
 }
 .navbar {
   list-style-type: none;
-  overflow: hidden;
+  overflow: visible;
   position: fixed;
   margin: 0;
+  height: 15%;
   padding-bottom: 5px;
   background-color: #333;
 }
