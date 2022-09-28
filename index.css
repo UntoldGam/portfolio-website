@@ -10,7 +10,7 @@ body {
   position: fixed;
   height: fit-content;
   margin: 5px;
-  width: max-content;
+  width: inherit;
   padding-bottom: 5px;
   background-color: #333;
 }
