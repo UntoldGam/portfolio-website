@@ -8,7 +8,7 @@ body {
   list-style-type: none;
   overflow: visible;
   position: fixed;
-  height: fit-content;
+  height: max-content;
   margin: 5px;
   width: inherit;
   padding-bottom: 5px;
